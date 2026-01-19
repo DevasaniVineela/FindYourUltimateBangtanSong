@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Your Ultimate BTS Song 💜</title>
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Floating hearts & balloons background -->
+  <div class="floating-bg" id="floating-bg"></div>
+
+  <!-- APP CONTAINER -->
+  <main class="app">
+
+    <!-- HEADER -->
+    <header class="app-header">
+      <h1>Find Your Ultimate BTS Song 💜</h1>
+
+      <p class="round-info">
+        Round <span id="round-number">1</span> ·
+        Match <span id="match-number">1</span>
+      </p>
+
+      <div class="progress">
+        <span id="progress-text">128 songs → 64 matchups</span>
+      </div>
+    </header>
+
+    <!-- MATCHUP AREA -->
+    <section class="matchup">
+
+      <button class="song-card" id="song-a" aria-label="Choose song A">
+        <img class="album-cover" src="" alt="Album cover">
+        <h2 class="song-title">Song A</h2>
+        <p class="song-artist">Artist</p>
+      </button>
+
+      <div class="vs">VS</div>
+
+      <button class="song-card" id="song-b" aria-label="Choose song B">
+        <img class="album-cover" src="" alt="Album cover">
+        <h2 class="song-title">Song B</h2>
+        <p class="song-artist">Artist</p>
+      </button>
+
+    </section>
+
+  </main>
+
+  <!-- RESULT SCREEN -->
+  <section class="result hidden" id="result-screen">
+    <h1>Your Ultimate BTS Song</h1>
+
+    <div class="winner-card">
+      <img id="winner-album" src="" alt="Album Cover">
+      <h2 id="winner-title">Song Title</h2>
+      <p id="winner-artist">Artist</p>
+    </div>
+
+    <button id="restart-btn">Play Again</button>
+
+    <!-- Confetti canvas -->
+    <canvas id="confetti-canvas"></canvas>
+  </section>
+
+  <!-- AUDIO MUST COME BEFORE script.js -->
+<audio id="bg-music" loop preload="auto">
+  <source src="assets/audio/bgm.mp3" type="audio/mpeg">
+</audio>
+
+<!-- JS -->
+<script src="songs.js"></script>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>

@@ -1,9 +1,9 @@
 
 
 const SONGS = [
-  { id: 1, title: "We Are Bulletproof Pt.2", artist: "BTS", cover: "2cool4Skool.jpg" },
-  { id: 2, title: "No More Dreams", artist: "BTS", cover: "2cool4Skool.jpg" },
-  { id: 3, title: "Like", artist: "BTS", cover: "2cool4Skool.jpg" },
+  { id: 1, title: "We Are Bulletproof Pt.2", artist: "BTS", cover: "2Cool4Skool.jpg" },
+  { id: 2, title: "No More Dreams", artist: "BTS", cover: "2Cool4Skool.jpg" },
+  { id: 3, title: "Like", artist: "BTS", cover: "2Cool4Skool.jpg" },
   { id: 4, title: "Attack on Bangtan", artist: "BTS", cover: "ORUL82.jpg" },
   { id: 5, title: "Boy in Luv", artist: "BTS", cover: "SkoolLuvAffair.jpg" },
   { id: 6, title: "Just One Day", artist: "BTS", cover: "SkoolLuvAffair.jpg" },
@@ -146,5 +146,6 @@ const SONGS = [
   { id: 127, title: "Seven (feat. Latto)", artist: "Jungkook", cover: "Seven.jpg" },
   { id: 128, title: "Too Sad to Dance", artist: "Jungkook", cover: "Golden.jpg" }
 ];
+
 
 
